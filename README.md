@@ -9,6 +9,8 @@ Here are were to find all of your requirements:
 1) Create insert procedure that inserts presentation(s) and it's speakers.
 - this stored procedure is called: 'insertPresentations' on the DB and 'insertPresentations.sql' on Git
 - Example of how to use: EXECUTE insertPresentations 'Paul Rizza', 'Super SQL'
+###UPDATE####
+Fixed issue where you could not insert more than one person per presentation. You can now insert as many people per presentation you wish.
 
 2) I will test selecting presentations and speakers associated with them.
 - This stored procedure is called: 'selectSpeakerPresentations' on the DB and 'selectSpeakerPresentations.sql' on Git
